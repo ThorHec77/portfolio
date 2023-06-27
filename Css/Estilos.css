@@ -1,0 +1,250 @@
+body{
+    background-color: black;
+    color: #eee;
+}
+
+html {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior:smooth;
+}
+ 
+@font-face{
+	font-family: fuente;
+	src: url(fuentes/ubuntu.ttf);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4aa761;
+    opacity: 0.7;
+    position: static;
+    border: 3px solid #73AD21;
+   
+}
+
+.colorLetra{
+    color: rgb(239, 235, 100);
+}
+
+.colorLetraOff{
+    color: black;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.menuPrincipal div p {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.menuPrincipal div {
+    display: flex;
+}
+
+li a img {
+    width: 33;
+    height: 33;
+}
+
+#contactos ul li a {
+    width: 140px;
+    background-color: #00800f;
+    color: #fff;
+    text-decoration:none;
+    padding:10px 15px;
+    display: block;
+}
+
+.imagPersona {
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.imagPersona img {
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    
+}
+
+.imagPersona div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    
+}
+
+.imagPersona div a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.imagPersona div a img:hover {
+    width: 180px;
+    height: 180px;
+    transition: 2s;
+    position: relative;
+}
+
+.imagPersona div a img:hover {
+    transition: 1s;
+}
+
+.menuPrincipal ul {
+    list-style: none;
+}
+
+.botonesMenu {
+    border-radius: 5px;
+    border-style: ridge;
+    padding: 10px;
+}
+
+.menuPrincipal ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 11px 20px 10px 20px;
+    text-align: left;
+    width: 150px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.menuPrincipal ul li:hover {
+    background: #4aa761;
+    transition: all .5s ease;
+
+
+}
+.menuPrincipal ul li a:hover {
+    background: #4aa761;
+    transition: all .5s ease;
+
+
+}
+
+.menuPrincipal ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background:#25bc4b55;
+    padding: 0;
+    width: 100px;
+}
+
+.menuPrincipal ul ul li {
+    float: none;
+
+}
+
+.menuPrincipal ul li ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+
+}
+
+.menuPrincipal ul ul {
+    line-height: 120%;
+    width: 100%;
+
+}
+
+.menuPrincipal ul li:hover>ul {
+    display: block;
+}
+
+.menuPrincipal ul li ul li img {
+    width: 25px;
+    height: 25px;
+}
+
+#botonCurriculumn {
+    margin-top: 350px;
+    padding: 11px 20px 10px 20px;
+}
+
+#botonCurriculumn a {
+    color: #fff;
+    border-radius: 5px;
+    border-style: ridge;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Titulo {
+    background-color: #4aa76155;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    position: static;
+    border: 3px solid #73AD21;
+}
+.Titulo h2 {
+    margin-top: 20pz;
+}
+
+.Divididos {
+    display: flex;
+    justify-content: space-around;
+    max-height: max-content;
+
+}
+
+.Divididos p {
+    width: 600px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+#programacion {
+    width: 700px;
+    height: 470px;
+    margin: 20px 20px 20px 30px
+
+}
+
+.foco{
+    width: 100%;
+}
+.foco img{
+    display: block;
+    margin: auto;
+}
+.switch{
+    display: block;
+    background-color: transparent;
+    margin:auto;
+}
+.switch img{
+    height: 40px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00800f;
+    height: 150px;
+}
+
+.flechitas {
+    margin-left: 480px;
+    margin-block: 150px;
+}
